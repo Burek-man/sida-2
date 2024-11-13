@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    
+    grid-template-rows: auto;
+   
+    grid-template-columns:
+    "header header header"
+    "aside main1 main2"
+    "aside main3 main4"
+    "nav nav nav"
+}
