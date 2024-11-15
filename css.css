@@ -1,11 +1,71 @@
-.container{
+.grid-container{
     display: grid;
-    
-    grid-template-rows: auto;
-   
-    grid-template-columns:
-    "header header header"
-    "aside main1 main2"
-    "aside main3 main4"
-    "nav nav nav"
+    height: 100vh;
+    grid-template-rows: 1fr 0.6fr 6fr 1fr;
+    grid-template-columns: 1% 2fr 1fr 1%;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "header header header header "
+    "main main aside aside"
+    "footer footer footer footer";
 }
+
+
+.nav{
+    grid-area: nav;
+    background-color: whitesmoke;
+    }
+
+
+.header{
+    grid-area: header;
+    background-color: #B93C09;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: #E7782E;
+}
+
+.main{
+    grid-area: main;
+    background-color: #ED9962;
+}
+
+.footer{
+    grid-area: footer ;
+    background-color: #F2BA95;
+}
+
+img {
+    height: auto; 
+    max-width: 100%;
+    }
+
+.nav ul {
+    list-style-type: none;
+    background-color: rgb(31, 31, 31);
+    padding: 1;
+    margin: 0;
+    border-radius: 50px;
+    overflow: hidden;
+    }
+    
+    .nav li{
+        float: left;
+        margin-right: 50px;
+    }
+    
+    
+    .nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 7px
+    }
+
+    .nav ul :hover{
+        background-color: #dddddd42;
+        transition: 0,30s;
+        }
