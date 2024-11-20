@@ -13,28 +13,35 @@
 
 .nav{
     grid-area: nav;
-    background-color: whitesmoke;
+    padding: 50px;
+    position: sticky;
+    top: 0;
     }
 
 
 .header{
     grid-area: header;
-    background-color: #B93C09;
+    padding: 50px;
+    background-color: #F1FFFA;
+    
 }
 
 .aside{
     grid-area: aside;
-    background-color: #E7782E;
+    padding: 35px;
+    background-color: #93B7BE;
 }
 
 .main{
     grid-area: main;
-    background-color: #ED9962;
+    padding: 50px;
+    background-color: rgb(255,255,255);
 }
 
 .footer{
     grid-area: footer ;
-    background-color: #F2BA95;
+    padding: 40px;
+    background-color: #D5C7BC;
 }
 
 img {
@@ -49,6 +56,7 @@ img {
     margin: 0;
     border-radius: 50px;
     overflow: hidden;
+
     }
     
     .nav li{
