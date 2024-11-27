@@ -3,6 +3,9 @@
     height: 100vh;
     grid-template-rows: 1fr 0.6fr 6fr 1fr;
     grid-template-columns: 1% 2fr 1fr 1%;
+
+}
+.sida0 {
     grid-template-areas: 
     "nav nav nav nav"
     "header header header header "
@@ -10,6 +13,22 @@
     "footer footer footer footer";
 }
 
+.namn1 {
+    grid-template-areas: 
+    "nav nav nav nav"
+    "header header header header "
+    "aside aside main main"
+    "footer footer footer footer";
+}
+
+.kontakt1{
+    grid-template-areas: 
+    "nav nav nav nav"
+    "header header header header "
+    "main main main main "
+    "aside aside aside aside"
+    "footer footer footer footer";
+}
 
 .nav{
     grid-area: nav;
