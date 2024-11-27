@@ -22,7 +22,7 @@
 .header{
     grid-area: header;
     padding: 50px;
-    background-color: #F1FFFA;
+    background-color: rgb(220, 250, 231);
     
 }
 
